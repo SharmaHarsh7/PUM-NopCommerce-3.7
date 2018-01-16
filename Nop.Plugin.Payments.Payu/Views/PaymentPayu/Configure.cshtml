@@ -6,7 +6,8 @@
 @using Nop.Web.Framework;
 @using (Html.BeginForm())
 {
-    @Html.AntiForgeryToken()
+    
+     @Html.AntiForgeryToken()
     <table class="adminContent">
         <tr>
         <tr>
@@ -56,7 +57,7 @@
         </tr>
         <tr>
             <td colspan="2" width="100%">
-                <button type="submit" name="save" value="@T("Admin.Common.Save")" class="t-button">
+                <button type="submit" name="save" value="save" class="t-button">
                     Save
                 </button>
             </td>
